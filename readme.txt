@@ -17,8 +17,7 @@ if you need to check other versions, just copy them in current directory and use
 ##################################################################################################################
 
 1test.gal and 4test.gal are sample universes premade for correct comparison in tests. you can create or see all 
-universes in god_mod. simply use ./god_mod h w filename.gal and then you are prompted to choose if you want to create 
-or see a currently available universe
+universes in god_mod (main.c). simply use ./god_mod h w filename.gal and then you are prompted to choose if you want to create or see a currently available universe
 
 ##################################################################################################################
 
@@ -31,7 +30,7 @@ p.s. for a fun experience use
 enjoy!
 
 /////////////////////////////////////////////////////////
-for testing go to compare_files,
+for testing go to compare_files, (compare.c)
 y0ur test subject should be named final.gal
 syntax is h w source file.
 
@@ -41,3 +40,7 @@ syntax is h w source file.
 4ksrc.gal is a source file for checking results of 4kx4k 1000 iterations made by serial code
 do not change it or you have to make another one (or email me to get a new one nima.ghoroubi@gmail.com)
 //////////////////////////////////////////////////////////
+
+V0 to V6 are different versions of the code, from serial to parallel code and with ILP and uArchitecture edits per version to improve pipeline efficiency. 
+///////////////////////////////////////////////////////// 
+
